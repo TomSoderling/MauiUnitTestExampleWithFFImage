@@ -3,7 +3,7 @@ This is a sample repro project to show the issue with FFImageLoadingCompat NuGet
 
 # To Repro the Issue 
 1.) Add just the single FFImageLoadingCompat NuGet package to Maui app project. Package is successfully added 
-2.) Attempt to add one ore more of the other 4 packages:
+2.) Attempt to add one ore more of the other 4 packages:  
     - FFImageLoadingCompat.Maui
     - FFImageLoadingCompat.Transformation
     - FFImageLoadingCompat.Svg

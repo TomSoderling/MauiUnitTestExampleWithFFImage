@@ -9,8 +9,9 @@ This is a sample repro project to show the issue with FFImageLoadingCompat NuGet
     - FFImageLoadingCompat.Svg
     - FFImageLoadingCompat.Svg.Maui
 
-Result:
-In Package Console output:
+Result:  
+
+In Package Console output:  
 Package FFImageLoadingCompat.Maui 0.1.1 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package FFImageLoadingCompat.Maui 0.1.1 supports:
   - net7.0-android33.0 (.NETCoreApp,Version=v7.0)
   - net7.0-ios16.1 (.NETCoreApp,Version=v7.0)

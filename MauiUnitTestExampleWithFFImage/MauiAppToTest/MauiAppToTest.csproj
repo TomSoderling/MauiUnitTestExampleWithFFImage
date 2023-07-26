@@ -69,22 +69,4 @@
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
 	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
-	  <PackageReference Include="FFImageLoadingCompat.Maui" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Transformations" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg.Maui" Version="0.1.1" />
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
-	  <PackageReference Include="FFImageLoadingCompat.Maui" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Transformations" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg.Maui" Version="0.1.1" />
-	</ItemGroup>
-	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-maccatalyst'">
-	  <PackageReference Include="FFImageLoadingCompat.Maui" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Transformations" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg" Version="0.1.1" />
-	  <PackageReference Include="FFImageLoadingCompat.Svg.Maui" Version="0.1.1" />
-	</ItemGroup>
 </Project>

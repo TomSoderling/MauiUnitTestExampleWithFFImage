@@ -7,6 +7,10 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
+
+
+  		// Try using a net7.0-ios/Android library
+    		var t = new FFImageLoading.Svg.Maui.SvgImageSourceConverter();
 	}
 
 	private void OnCounterClicked(object sender, EventArgs e)
